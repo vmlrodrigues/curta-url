@@ -11,10 +11,10 @@
 # What is it?
 
 A simple self-hosted URL shortener with no unnecessary features. Simplicity
-and speed are the main focuses of this project. The scratch Docker image is <6 MB (compressed),
-the Alpine one is <10 MB (compressed), and it uses <15 MB of RAM under regular use.
+and speed are the main focuses of this project. The scratch Docker image is under 6 MB (compressed),
+the Alpine image is under 10 MB (compressed), and typical RAM usage stays under 15 MB.
 
-This fork exists to support a slightly different default behavior: when the same
+This fork exists to support a slightly different default behaviour: when the same
 long URL is submitted again, CurtaURL returns the existing short link. This keeps
 links stable for repeat submissions while still allowing explicit custom slugs
 for context-specific links.
