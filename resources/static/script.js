@@ -82,7 +82,7 @@ const showVersion = () => {
   if (VERSION) {
     link.innerText = "v" + VERSION;
     link.href =
-      "https://github.com/vmlrodrigues/curta-url/releases/tag/" + VERSION;
+      "https://github.com/vmlrodrigues/curta-url/releases/tag/v" + VERSION;
     link.hidden = false;
   } else {
     link.hidden = true;
